@@ -37,35 +37,19 @@ header {
     text-shadow: 2px 2px 5px #0e331f;
 }
 
-header > h1 {
+header h1 {
     padding-bottom: 20px;
 }
 
-header > p {
+header p {
     font-size: 1.2em;
     padding: 0px 10px 10px 10px;
     max-width: 300px;
     margin: auto;
 }
 
-nav {
-    text-align: left;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.232);
-    padding-bottom: 10px;
-}
-
-nav > a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor1);
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition-duration: 0.5s;
-}
-
-nav > a:hover {
-    background-color: var(--cor5);
-    color: var(--cor3);
+i#menu-burguer {
+    display: none;
 }
 
 main {
@@ -115,13 +99,13 @@ main img.pq {
     margin: auto;
 }
 
-article > h1 {
+article h1 {
     font-family: 'android';
     color: var(--cor5);
     font-size: 2em;
 }
 
-article > h2 {
+article h2 {
     font-family: 'android';
     text-indent: 10px;
     color: var(--cor5);
@@ -136,7 +120,7 @@ div {
     position: relative;
 }
 
-div > iframe {
+div iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -160,7 +144,7 @@ aside h4 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside ul {
     list-style-position: inside;
     list-style-type: '\2714\00A0';
     text-indent: 10px;
