@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como surgiu o mascote do android?</title>
-    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onresize="mudaTamanho()">
     <header>
         <h1>CURIOSIDADES DE TECNOLOGIA</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
@@ -107,11 +107,19 @@
     </footer>
 
     <script>
-        function clickMenu() {
-            if (itens.style.display == 'block') {
+        function mudaTamanho() {
+            if (window.innerwidth >= 768) {
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'none') {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
