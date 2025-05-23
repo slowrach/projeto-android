@@ -1,6 +1,8 @@
+import "./contato.css"
+
 export function Contato(){
    return (
-      <div className="main">
+      <div className="main-contato">
          <h1>Entre em contato</h1>
 
          <form method="post">

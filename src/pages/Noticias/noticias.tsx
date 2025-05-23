@@ -1,3 +1,5 @@
+import "./noticias.css"
+
 export function Noticias(){
    return (
       <div className="main">
@@ -18,7 +20,7 @@ export function Noticias(){
 
          <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>, o novo mascote do Android.</p>
          
-         <img src="src/assets/bugdroid.png" alt="bugdroid" className="img2"></img>
+         <img src="src/assets/bugdroid.png" alt="bugdroid" className="imgNoticias"></img>
          
          <p>A principal inspiração para os traços do novo <strong>Bugdroid</strong> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <strong>Google</strong> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
          

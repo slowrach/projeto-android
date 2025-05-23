@@ -1,3 +1,5 @@
+import "./curiosidades.css"
+
 export function Curiosidades(){
    return (
       <div className="main">

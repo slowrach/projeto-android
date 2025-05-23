@@ -1,4 +1,4 @@
-import "./layout.module.css"
+import "./layout.css"
 import { Outlet } from "react-router"
 
 export function Layout(){

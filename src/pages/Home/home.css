@@ -1,0 +1,17 @@
+.main h1 {
+  color: var(--cor5);
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.main .imgHome {
+   width: 80%;
+}
+
+@media (max-width: 767px) {
+   .main h1 {
+      text-align: center;
+      font-size: 2.5rem;
+   }
+}

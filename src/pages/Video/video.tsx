@@ -1,3 +1,5 @@
+import "./video.css"
+
 export function Video(){
    return (
       <div className="main">
