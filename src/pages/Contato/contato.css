@@ -3,7 +3,7 @@
   background-color: #ffffff;
   width: 90vw;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 5rem;
   padding: 2rem;
   border-radius: 0 0 1rem 1rem;
 }
@@ -29,12 +29,12 @@
 }
 
 .main-contato form input {
-  padding-left: 1rem;
+  padding: 1rem;
   flex: 1;
 }
 
 .main-contato form input::placeholder, .main-contato form textarea::placeholder {
-  color: #69a98b;
+  color: #69a98bb6;
 }
 
 .main-contato form .personal-data {
@@ -46,7 +46,7 @@
 }
 
 .main-contato form .personal-data img {
-  width: 3rem;
+  width: 2.5rem;
 }
 
 .main-contato form textarea {
@@ -79,6 +79,6 @@
 @media (max-width: 769px) {
    .main-contato {
       border-radius: 1rem;
-      margin: 50% auto;
+      margin: 30% auto 50%;
    }
 }

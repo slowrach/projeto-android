@@ -1,5 +1,5 @@
 .main .video {
-  margin: -2rem;
+  margin: rem;
   padding: 20px;
   padding-bottom: 56.6%;
   position: relative;
@@ -16,5 +16,9 @@
 @media (max-width: 769px) {
    .main .video {
     margin: 5rem 0 100%;
+   }
+
+   .main .video iframe {
+    height: 80%;
    }
 }
