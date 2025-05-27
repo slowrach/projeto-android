@@ -5,6 +5,7 @@ import { Noticias } from "../pages/Noticias/noticias"
 import { Curiosidades } from "../pages/Curiosidades/curiosidades"
 import { Video } from "../pages/Video/video"
 import { Contato } from "../pages/Contato/contato"
+import { NotFound } from "../pages/NotFound/notFound"
 
 export function AppRoutes(){
    return (
@@ -21,6 +22,8 @@ export function AppRoutes(){
 
                <Route path="/fale-conosco" element={<Contato />} />
             </Route>
+
+            <Route path="*" element={<NotFound />} />
          </Routes>
       </BrowserRouter>
    )
